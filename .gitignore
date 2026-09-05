@@ -46,8 +46,11 @@ venv.bak/
 *.pth
 *.bin
 *.onnx
+*.h5
 checkpoints/
-models/
+models/*.pt
+models/*.pth
+models/*.bin
 
 # Logs and outputs
 *.log
