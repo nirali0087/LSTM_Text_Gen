@@ -47,10 +47,12 @@ venv.bak/
 *.bin
 *.onnx
 *.h5
+*.keras
 checkpoints/
 models/*.pt
 models/*.pth
 models/*.bin
+models/*.keras
 
 # Logs and outputs
 *.log
