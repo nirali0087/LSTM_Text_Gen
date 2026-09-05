@@ -1,6 +1,7 @@
 """
 Source package for the LSTM Text Generation project.
-Contains data preprocessing, sequence preparation, and vocabulary utilities.
+Contains data preprocessing, sequence preparation, vocabulary utilities,
+and model architecture definition.
 """
 
 from src.preprocess import (
@@ -20,6 +21,12 @@ from src.prepare_data import (
     prepare_dataset,
 )
 
+from src.model import (
+    build_model,
+    compile_model,
+    test_model,
+)
+
 __all__ = [
     "load_text",
     "clean_text",
@@ -32,4 +39,7 @@ __all__ = [
     "save_vocabulary",
     "load_vocabulary",
     "prepare_dataset",
+    "build_model",
+    "compile_model",
+    "test_model",
 ]
